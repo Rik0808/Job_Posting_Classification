@@ -48,12 +48,12 @@ The data is taken from https://www.kaggle.com/datasets/shivamb/real-or-fake-fake
 8. ‘has_company_logo’ and Fraudulent are negatively correlated
 9. If the company does not have a logo then there is a bigger chance that the job posting is fraudulent.
 10. A lot of fraudulent job postings have not specified anything in their required education.
-11. 
+
 ## Further Scope of this project:
 1. Building a classification model(work in progress) using SOTA tools like BERT, Attention Mechanism, etc.
 2. Building a web app for live demos using Streamlit.
 
 ## Links:
-Detailed EDA Blog link: https://medium.com/@ritwickc35/to-be-classified-fake-or-not-fake-thats-the-question-25d77546a1e6
-Youtube Video Link:https://www.youtube.com/watch?v=gSNa9khcG6Y
+* Detailed EDA Blog link: https://medium.com/@ritwickc35/to-be-classified-fake-or-not-fake-thats-the-question-25d77546a1e6
+* Youtube Video Link:https://www.youtube.com/watch?v=gSNa9khcG6Y
 
