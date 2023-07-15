@@ -7,7 +7,7 @@ In this particular problem, I have tried to tackle the fake job posting issue wi
 
 ##**Context**<br><br>
 This dataset contains 18K job descriptions out of which about 800 are fake. The data consists of both textual information and meta-information about the jobs. The dataset can be used to create classification models which can learn the job descriptions which are fraudulent.
-The data is taken from [www.Kaggle.com](https://www.kaggle.com/datasets/shivamb/real-or-fake-fake-jobposting-prediction)https://www.kaggle.com/datasets/shivamb/real-or-fake-fake-jobposting-prediction
+The data is taken from https://www.kaggle.com/datasets/shivamb/real-or-fake-fake-jobposting-prediction
 ## Column description:
 * job_id: Unique job id for each posting
 * title: Title of the job offered
@@ -23,6 +23,18 @@ The data is taken from [www.Kaggle.com](https://www.kaggle.com/datasets/shivamb/
 * has_questions: True for having questions.
 * employment_type: Type of employment(e.g. Full-time)
 * required_experience: required experience(e.g. Mid-senior Level)
+## Tasks Performed:
+1. Exploratory data analysis
+2. Statistical tests
+3. Data Cleaning
+4. Text data processing
+5. text vectorization
+6. One-hot-encoding
+## Important Insights:
+1. The data is highly imbalanced.
+2. The data has a lot of null values. salary_range has highest percentage of null values -> 83-84%
+3. The highest number of job postings comes out of US,GB and GR comes 2nd and 3rd respectively
+4. 
 * required_education: required education to apply for the job(e.g. undergraduate)
 * Industry: Industry of work(e.g. Computer Software)
 * Function: Function to be performed in the job(e.g. Marketing)
