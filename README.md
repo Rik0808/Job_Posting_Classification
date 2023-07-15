@@ -6,7 +6,7 @@ The Internet is so full of fake articles, news, documents, and whatnot and the b
 In this particular problem, I have tried to tackle the fake job posting issue with the help of classification techniques and NLP. The dataset has been taken from Kaggle and contributed to Kaggle by The University of the Aegean | Laboratory of Information & Communication Systems Security.
 
 ##**Context**<br><br>
-This dataset contains 18K job descriptions out of which about 800 are fake. The data consists of both textual information and meta-information about the jobs. The dataset can be used to create classification models which can learn the job descriptions which are fraudulent.
+This dataset contains 18K job descriptions out of which about 800 are fake. The data consists of both textual information and meta information about the jobs. The dataset can be used to create classification models which can learn the job descriptions which are fraudulent.
 The data is taken from https://www.kaggle.com/datasets/shivamb/real-or-fake-fake-jobposting-prediction
 
 ## Column description:
@@ -24,7 +24,7 @@ The data is taken from https://www.kaggle.com/datasets/shivamb/real-or-fake-fake
 * has_questions: True for having questions.
 * employment_type: Type of employment(e.g. Full-time)
 * required_experience: required experience(e.g. Mid-senior Level)
-* * required_education: required education to apply for the job(e.g. undergraduate)
+* required_education: required education to apply for the job(e.g. undergraduate)
 * Industry: Industry of work(e.g. Computer Software)
 * Function: Function to be performed in the job(e.g. Marketing)
 * Fraudulent: Target Variable. It indicates if the job posting is fake or not.
